@@ -17,18 +17,7 @@ app.use(cors(
 ));
 
 
-// const DEFAULT_IMAGE_PATH = './uploads/default_image_url.jpg';
-
-
-
 mongoose.connect('mongodb+srv://Crud_App:Don45Wf6u8ely3jo@cluster0.sogcdsk.mongodb.net/?retryWrites=true&w=majority')
-// Don45Wf6u8ely3jo
-// mongodb+srv://Crud_App:Don45Wf6u8ely3jo@cluster0.sogcdsk.mongodb.net/?retryWrites=true&w=majority
-
-
-// app.get('/defaultImage', (req, res) => {
-//   res.sendFile(__dirname + DEFAULT_IMAGE_PATH);
-// });
 
 
 app.get("/", (req, res) =>{
