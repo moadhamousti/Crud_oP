@@ -8,6 +8,14 @@ app.use(cors())
 app.use(express.json())
 app.use(express.static('public'));
 
+app.use(cors(
+  {
+    origin: ["https://crud-o-p-moads-projects-98c27d10.vercel.app/"],
+    methods: ["POST", "GET"],
+    credentials: true
+  }
+));
+
 
 // const DEFAULT_IMAGE_PATH = './uploads/default_image_url.jpg';
 
