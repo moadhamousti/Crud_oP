@@ -58,9 +58,6 @@ app.delete("/deleteUser/:id", (req, res) => {
     .catch(err => res.json(err));
 });
 
-// deleteUser
-
-
 
 app.post("/createUser", (req, res) =>{
   UserModel.create(req.body)
