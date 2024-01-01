@@ -10,7 +10,7 @@ app.use(express.static('public'));
 
 app.use(cors(
   {
-    origin: ["https://crud-o-p-moads-projects-98c27d10.vercel.app/"],
+    origin: ["https://crud-o-p.vercel.app/"],
     methods: ["POST", "GET"],
     credentials: true
   }
